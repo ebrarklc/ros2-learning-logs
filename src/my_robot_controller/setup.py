@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'test_node = my_robot_controller.daire_ciz:main',  # Buranın sonuna VİRGÜL koymayı unutma!
     'dinleyen_node = my_robot_controller.pose_subscriber:main',
+             'cagirici_node = my_robot_controller.kaplumbaga_cagir:main', 
         ],
     },
 )
